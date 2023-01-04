@@ -1,18 +1,22 @@
+*,*::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     color: aqua;
     font-size: 60px;
 
 }
-<<<<<<< HEAD
 body{
+    overflow: hidden;
     background-image: url('./image/Sans\ titre\ \(39\).png');
 }
-=======
 P{
     background-color: #8ecae6;
 }
 
->>>>>>> d38f02d9714c06baf3f9bf50461ed0743a8ebbb7
 .bkguser{
     width: 12%;
     border-radius: 6px ;
@@ -24,7 +28,37 @@ border: 3px solid #219ebc;
     border-radius: 6px ;
 background: #023047;
 border: 3px solid #219ebc;
-<<<<<<< HEAD
 }
-=======
->>>>>>> d38f02d9714c06baf3f9bf50461ed0743a8ebbb7
+
+footer{
+    position: absolute;
+    width: 100%;
+    background-color:#023047;
+    color: aliceblue;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    bottom: 0;
+    
+}
+
+h3{
+    color: #FB8500;
+    padding: 30px;
+    
+}
+
+.links1 ul li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.links2 ul li {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
