@@ -1,7 +1,20 @@
 h1{
     color: aqua;
+    font-size: 60px;
 
 }
-P{
-    background-color: brown;
+body{
+    background-image: url('./image/Sans\ titre\ \(39\).png');
+}
+.bkguser{
+    width: 12%;
+    border-radius: 6px ;
+background: #023047;
+border: 3px solid #219ebc;
+}
+.bkgpass{
+    width: 12%;
+    border-radius: 6px ;
+background: #023047;
+border: 3px solid #219ebc;
 }
