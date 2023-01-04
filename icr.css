@@ -4,6 +4,23 @@
     padding: 0;
 }
 
+nav{
+    width: 40%;
+    height: 62px;
+    top: 20px;
+    background: #FB8500;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 2rem ;
+    margin-top: 2rem;
+    
+    }
+    
+
 h1{
     font-family: "omegle";
     color: #023047;
@@ -83,5 +100,4 @@ h3{
     display: flex;
     align-items: center;
 }
-
 
